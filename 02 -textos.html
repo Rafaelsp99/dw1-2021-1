@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formatação de textos</title>
+    <title>Formatação oi de textos</title>
     <style>
         address {
             /* Fazendo elemento ficar em linha */
@@ -18,6 +18,12 @@
     mark {
         background-color: aqua;
     }
+
+    /* valores para text- align: left, right, center, justify*/
+    h1 {text-align: center;}
+    /* <p class=dir"> */
+    p.dir { text-align: right;}
+    
         
     </style>
 </head>
@@ -25,7 +31,8 @@
     <h1>Formatação de texto</h1>
     <!-- Tag <u> = underline (sublinhado) (NÃO USAR) -->
         <!-- Tag <address> = endereço -->
-    <p>Orkutilson morava na <address> Rua que Sobe e Desce,
+            <p Class="dir">Históriaaaa baseada em  fatos reais </p>
+    <p >Orkutilson morava na <address> Rua que Sobe e Desce,
         333</address> e seu e-mail era <address>orkutilson@gmail.com</address>.
     </p>
     <!-- 
@@ -63,6 +70,25 @@
 
         <P>Orkutilson também gostava de fórmulas. Suas preferidas eram H<sub>2</sub> O = mc<sup>2</sup>.
          </P>
-    </p>
-</body>
+         <!-- <quote> = citações no meio de um paragrafo 
+             <blockquote> = um bloco de citação ( com várias linhas, por exemplo) -->
+                 <p>Sua frase favorita era <quote>"Penso, logo existo" (Descartes)</quote>. E seu trecho preferido de musica era:</p>
+    <blockquote>
+        Há tantos mundos diferentes <br>
+        Tantos sóes diferentes; <br>
+        E nós temos apenas um mundo, <br>
+        Mas vivemos em mundos diferentes.<br>
+        (Dira Straits, Brothers in Arms)
+    </blockquote>
+
+    <!-- <abbr> Definição de abreviações 
+        <code> representa código de programação ou marcação. No aso de HTML, os sinais < e > precisam ser subistituidos por &lt; &gt; , respectivamente
+    -->
+    <p>Em suas horas vagas, Orkutilson era um membro ativo da
+         <abbr title=" Associação Comercial do Bairro do Limão"> ASMOBALI</abbr> e  estudava
+         <abbr title="HyperText Markup Language">HTML</abbr>
+         <code>&lt;blockquote&gt;</code> e <code>&lt; address&gt;</code>.
+         <p>
+             <p Class="dir"><em>Autor: Desconhecido</em></p>
+         </body>
 </html>
