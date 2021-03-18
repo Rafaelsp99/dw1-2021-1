@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Links (hyperlinks ou hyperligações)</title>
+    <link rel="stylesheet" href="08.css">
 </head>
 <body>
 
@@ -37,9 +38,71 @@
     <!-- Links são acessados em HTML pela tag <a> (ancor, âncora) O parâmetro href indica o destino do link.
         
         Sempre que o destino linkado NÂO pertencer ap nosso próprio site, O URL precisa iniciar com protocolo( HTTP:// ou HTTPS://)
+         
+        O elemento <a> também é um elemento de linha (fica na mesma linha)
     -->
+     <!-- Link Externo: leva para uma pagina em outro site precisa começar com http:// ou https:// (endereço completo-->
+     <div><!-- div é um elemento de bloco-->
+      <a href="https://site.fatecfranca.edu.br">Site oficial da Fatec Franca  </a> </div>
 
-      <a href="https://site.fatecfranca.edu.br">Site oficial da Fatec Franca  </a> 
+      <!-- Link interno: Leva para uma página do próprio site Não precisa começar com o prefixo do protocolo.-->
+      <p> <!--Também é um elemento de bloco-->
+        Para maiores informações o uso de imagens em HTML, consulte
+          <a href="07imagens2.html">Imagens</a> Está tudo explicado lá</p>
+
+          <!-- 
+              Link externo abre em uma nova janela
+              para isso usamos o atributo target com o valor _blank
+          -->
+          <div>
+          <a href="https://www.cps.sp.gov.br" target="_blank">Site do Centro Paula Souza</a>
+          </div>
+
+          <!--Link da imagem  ( olink pode ser externo ou interno
+           O "recheio" da tag  <a> em vez de ser um texto, é uma tag <img>
+               --> 
+          <div>
+              <a href="07imagens2.html" title="Página principal do site da Apptiva">
+                  <img src="img/apptiva-icon.png" alt="Site do Apptia">
+              </a>
+          </div>
+
+          <div>
+
+            <a href="03-listas.html">Listas em HTML</a>
+          </div>
+
+          <!-- Atributo rel estabece a Relação entre a página atual e a página linkada
+            ATRIBUTO SEMÂNTICO
+          Valores possíveis
+          nofollow -> O autor da pagina não endosa( não concorda, necessariamente) com o conteúdo  
+          prev -> Link para a página enterior do mesmo site.
+          next - > Link para a página seguinte do mesmo site
+          external -> link para sites externos
+          author -> link para o site pessoal do autor da pagiana
+
+
+ -->
+
+          <div>
+              <a href="https://produto.mercadolivre.com.br/MLB-1459346254-livro-html-e-css-projete-e-construa-websites-alta-books-_JM#position=2&type=item&tracking_id=efd55f3e-6c17-4ad7-b798-c5fcb82c0f23" rel="nofollow">Livro de HTML</a>
+          </div>
+
+          <br>
+
+          <a href="07imagens2html" rel="prev">Página anterior</a>
     
+
+          <br>
+           
+          <a href="09-nao-existe.html" rel="next">Página Seguinte</a>
+
+          <br>
+
+          <a href="http://www.pudim.com.br" rel=external>Site do Pudim</a>
+
+          <br>
+
+          <a href="https://www.linkedin.com/in/rafael-de-paula-a70244112/" rel="author" target="_blank">Meu linkedin</a>
 </body>
 </html>
