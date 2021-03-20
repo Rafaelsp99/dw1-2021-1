@@ -7,7 +7,7 @@ a {
 /*Links já visitado*/
 a:visited {
    /* color: green;*/
-   filter: brightness(+1300%); /* Cor 50% mais escura*/
+   color: green; /* Cor 50% mais escura*/
 }
 a:hover {
     /*color: orange;*/
