@@ -8,6 +8,30 @@
 <body>
     <h1>Vídeo em HTML</h1>
 
+    <h2>Formatos de vídeo</h2>
+
+    <p>Para entender os formatos de vídeo, é preciso entender primeiro o que são os <em>codecs</em> (codificadores/decodificadores). Trata-se de algorítimos que codificam e depois decodificam várias imagens em sequência para criar a ilusão de movimento. Alguns <em>codecs</em> de vídeo não lidam com a parte de som. com isso, torna-se necessáio acrescentar o áudio em uma parte separada, usando um dos formatos de áudio já estudados</p>
+
+    <p>Para juntar as partes de vídeo, áudio e outras informações (como, por exemplo, as legendas) em um único arquivo, existem os formatos <em>container </em> Esses formatos podem parecer iguais por fora, enquanto, por dentro, trazem trilhas multimida produzidas com <em>codecs</em>diferentes. por isso, o equipamento que irá reproduzi-los precisa, além de reconhecer o fomarto do arquivo <em>container</em> ter também instalados os <em>codecs</em> para decodificar áudio e vídeo. Os navegadores trazem instalados os <em>codecs</em> mais comuns.</p>
+
+    <ul>
+
+        <li><strong>MP4</strong>: Fortmato introduzido em 2001 pela ISO (<em>international Standards Organizador</em>, Organização internacional de padrões), e que se tornou o padrão de marcado. È um formato <em>container</em> que suporta vários <em>codecs</em> tanto de áudio como de vídeo, que usualmente estão sob compressão.</li>
+        <li><strong>M4V:</strong>Formato introduzido pela Apple, tecnicamente semelhante ao M. No entanto, esse formato suporta DRM (<em>Digital Rights Management</em> gerenciamento de direitos digitais, permitindo que conteúdos protegidos por direitos autorais só possam ser reproduzdiso por quem tiver adquirido a licença para tal</li>
+
+        <li><strong>WEBM</strong>projeto irmão do WebP, iniciado pela fundação Xiph.org em 2010 e depois assumido pelo Google. è também um formato <em>container</em>, que promete melhor qualidade em um menor tamanho de arquivo quando comaprado com MP</li>
+
+        <li><strong>OGV</strong>formato  <em>container</em> da família OGG Vorbis. introduzido pela fundação Xiph.org em 2004, de libre utilização.</li>
+
+        <li><strong>AVI</strong>: Sigla para <em>Audio Video Interleadved</em>(Áudio e vídeo entrelaçados) introduzido pela microssoft em 1992. É um formato em compressão, tendendo a gerar arquivos muito grandes.</li>
+    </ul>
+
+    <h2>Problemas com a hospedagem de vídeos</h2>
+
+    <p>Hospedar vídeos em seu prórprio <em>websites</em> pode sair caro, pois várias hospedagens atualmente cobram por tráfego. um típico vídeo de 500mb de tamanho, por exemplo, ao ser reproduzido 20 vezes terá consumido 10GB de tráfego (ou de banda, como se ouve com mais frequencia)</p>
+
+    <p>Portanto, na maioria da vezes, o melhor a fazer é hospedar seu vídeo em serviços como o Youtube ou o vímeo e apenas incorpora ("linkar") o vídeo em seu <em>site</em>. Enquanto vídeos hospedados no You tube geralmente estarão disponíveis para um público amplo, enquanto o viemo, mediante pagamnto, permite restringir o acesso aos vídeos</p>
+
     <h2>Exemplo de vídeo com múltiplas fontes</h2>
 
     <!-- Parâmetros da tag <vídeo>:
@@ -23,5 +47,15 @@
         <p>Não foi possível baixar o vídeo. Faça o <a href="video/reproduzir-pdf.mp4" download="reduzir-pdf.mp4"type= "video/mp4" >download</a> </a> do arquivo</p>
 
     </video>
+
+    <h2>Exemplos de vídeos incorporados</h2>
+
+    <p>Vídeo incorporado od You tube: </p>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jgQjeqGRdgA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <p>Vídeo incorporado do Vímeo</p>
+    <iframe src="https://player.vimeo.com/video/527503331" width="640" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/527503331">Mercedes Benz | Valet Guys</a> from <a href="https://vimeo.com/panteraco">Pantera</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 </body>
 </html>
