@@ -2,6 +2,13 @@
 *{ /*Todos os elementos*/
     padding: 0;
     margin: 0;
+    /*Exemplo de familia de fonte sem serifa 
+    font-family: 'Calibri' 'Arial' 'sans';*/
+    
+    /*Exemplo de familia de fonte COM SERIFDA gont-famyli: Georgia 'Times Nex Roan', serif*/
+
+    /* Exemplo de familia de fonte MONOESPAÇADA font-family: Consolas, 'Courier New', monospace*/
+    font-family: Arial, Arial, sans;
 }
 
 
@@ -13,4 +20,9 @@ header{
 nav ul li{
     display: inline-block;
     margin: 10px;
+}
+
+nav{
+    background-color: #FF7F2A; /*cor de fundo */
+    color:#FFFFFF; /*cor do texto*/
 }
